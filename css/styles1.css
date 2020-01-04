@@ -1,0 +1,85 @@
+/* self-esteemtop */
+
+body {
+  font-family: 'Arial','Yu Gothic UI','Hiragino Sans', sans-serif;
+  margin: 0;
+  font-size: 13px;
+  color: #1f1801;
+  user-select: none;
+}
+
+img {
+  margin-top: 10px;
+}
+
+header {
+  animation:hd 100s ease 4s 3;
+  background: #e6ff66;
+  text-align: center;
+  line-height: 1.7;
+}
+
+@keyframes hd {
+  10%{background: #ccffcc;}
+  20%{background: #ccffff;}
+  30%{background: #d8d8fe;}
+ 40%{background: #e9d6fc;}
+ 50%{background: #ffd1ff;}
+ 60%{background: #e9d6fc;}
+ 75%{background: #dccaff;}
+ 85%{background: #ccffff;}
+ }
+
+.container {
+  display: flex;
+  height: 300px;
+}
+
+.box {
+  margin: 40px auto;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+
+.box1 > h3 { 
+  background: #9cf2ff;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: 4px 8px 0 #75c4d0;
+}
+
+.box2 > h3 { 
+  background: #efc1ff;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  border-radius: 50%;
+  padding: 4px;
+  box-shadow: 4px 8px 0 #d0a2df;
+}
+
+.box3 { 
+  border: 6px solid #efff43;
+  width: 160px;
+  height: 100px;
+  padding: 4px;
+}
+
+
+
+footer {
+  height: 20px;
+  background: #f0f591;
+  text-align: center;
+  font-weight: normal;
+  color: #1208a0;
+}
+footer p {
+  margin: 0 auto;
+}
