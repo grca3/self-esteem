@@ -1,10 +1,11 @@
 /* self-man */
-
+/* common  mobile - ipad */
 body {
   margin: 0;
   font-family: Verdana, 'HiraMinProN-W6', Arial, sans-serif;
   user-select: none;
   width: 100vw;
+  letter-spacing: 1px;
 }
 
 
@@ -58,3 +59,14 @@ footer {
   text-align: center;
 }
 
+@media (min-width: 1060px) {
+
+.container {
+  font-size: 20px;
+}
+
+footer {
+  font-size: 22px;
+}
+
+}
